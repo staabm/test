@@ -2,7 +2,7 @@
 
 $code = '<?php $a <=> $b;';
 
-echo "Tokens for\n    ", $code, "\n\n";
+echo "Token for\n    ", $code, "\n\n";
 
 $tokens = token_get_all($code);
 foreach ($tokens as $token) {
